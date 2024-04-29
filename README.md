@@ -20,8 +20,8 @@ The repository is organized into two main directories:
 - git clone https://github.com/yourusername/commit-hooks-collection.git
 
 2. Navigate to your project's .git/hooks directory and copy the hooks from the cloned repository:
-- cp -r commit-hooks-collection/pre-commit/* .git/hooks/pre-commit/
-- cp -r commit-hooks-collection/post-commit/* .git/hooks/post-commit/
+- cp -r Github_commit_hooks/pre-commit/* .git/hooks/pre-commit/
+- cp -r Github_commit_hooks/post-commit/* .git/hooks/post-commit/
 
 3. Ensure that the hooks are executeable
 - chmod +x .git/hooks/pre-commit/*
