@@ -17,7 +17,7 @@ The repository is organized into two main directories:
 ## Usage 
 
 1. Clone the Repository
-- git clone [https://github.com/NashTech-Labs/Github_commit_hooks]
+- git clone https://github.com/NashTech-Labs/Github_commit_hooks
 
 2. Navigate to your project's .git/hooks directory and copy the hooks from the cloned repository:
 - cp -r commit-hooks-collection/pre-commit/* .git/hooks/pre-commit/
